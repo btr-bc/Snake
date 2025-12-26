@@ -27,7 +27,7 @@ namespace Bocchi {
         add<sf::Texture>(ResID::food_bocchi, "assets/textures/food_bocchi.png");
 
         add<sf::SoundBuffer>(ResID::eat_sound_maodie, "assets/sounds/eat_sound_maodie.mp3");
-        add<sf::SoundBuffer>(ResID::eat_sound_maodie_h, "assets/sounds/eat_sound_maodie_h.mp3");
+        add<sf::SoundBuffer>(ResID::eat_sound_maodie_h, "assets/sounds/eat_sound_maodie_h.wav");
     }
 
     void ResourceManager::unloadAll(){
